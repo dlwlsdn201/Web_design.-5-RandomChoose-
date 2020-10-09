@@ -1,0 +1,87 @@
+html,body{
+    height: 100%;
+    bottom : 0;
+    top: 0;
+    margin: 0 auto;
+}
+
+body{
+    display: flex;
+    height: 85%;
+    justify-content: space-between;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    display: block;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+
+.mainTitle{
+    text-align: center;
+}
+
+.randomChoose{
+    display: flex;
+    justify-content: center; 
+    margin-top : 20px;
+}
+
+input{
+    width: 220px;
+    height: 25px;
+}
+
+.addBtn{
+    height: 31px;
+}
+
+.randomBtn{
+    height : 50px;
+    width: 100px;
+    margin-bottom : 50px;
+    background : lightblue;
+}
+
+
+.objectList{
+    padding-top : 10px;
+    background: lightgrey;
+    width: 140px;
+    height: 115.5%;
+    border : 1px solid black;
+}
+
+.process{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+.result{
+    display: flex;
+    justify-content: center;
+}
+
+.resultShow{
+    width: 150px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    border: 2px dashed black;
+}
+
+li{
+    border: 1px dotted black;
+    margin : 5px 0px;
+    height: 20px;
+    width: 100%;
+    padding: 1px;
+    line-height: 22px;
+}

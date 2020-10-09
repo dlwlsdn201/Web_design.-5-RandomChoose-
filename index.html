@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css" class="css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header" id="header">
+            <div class="mainTitle" id="mainTitle">
+                <h1 class="mainTitle_title" id="mainTitle_title">랜덤뽑기</h1>
+            </div>
+        </header>
+        <div class="main">
+            <section class="process" id="process">
+                <div class="addObject">
+                    <form action="">
+                        <input type="text" class="addBox" id="addBox" placeholder="뽑기를 위한 후보 대상을 입력하세요." required>
+                        <button class="addBtn" id="addBtn">추가</button>
+                    </form>
+                </div>
+            </section>  
+            <div class="randomChoose">
+                <button class="randomBtn" id="randomBtn">뽑 기</button>
+            </div>
+            <section class="result" id="result">
+                <div class="resultShow">
+                    결과 출력 부분
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="side" id="side">
+        <section class="objectList" id="objectList">
+            리스트 영역
+            <ul class="listTable" id=listTable>
+            </ul>
+        </section>      
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
